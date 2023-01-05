@@ -11,7 +11,6 @@ import * as calc from './calculator.js';
 import * as copy from './copyright.js';
 
 
-
 /* import {add, subtract, multiply, divide}; */ //import function by function
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -40,9 +39,9 @@ names.render(
 math.render(
   <ul>
  <h2>Pi</h2>
-  <li class="firstLi">{pi}</li>
-  <li class="secondLi">{doublePi()}</li>
-  <li class="thirdLi">{triplePi()}</li>
+  <li>{pi}</li>
+  <li>{doublePi()}</li>
+  <li>{triplePi()}</li>
  </ul>,
  document.getElementById("math")
  );
@@ -51,6 +50,14 @@ math.render(
   <div>
     <h1>Created by { copy.yourname }</h1>
     <p>Copyright { copy.year }</p>
+
+    <div>
+      <img alt='picsum' src={ copy.img + "?grayscale"} />
+      <img className='food-img' alt='' src='https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1600'/>
+      <img className='food-img' alt='' src='https://thumbs.dreamstime.com/b/junk-food-concept-unhealthy-food-background-fast-food-sugar-burger-sweets-chips-chocolate-donuts-soda-junk-food-concept-137097176.jpg' />   
+      <img className='food-img' alt='' src='https://media.self.com/photos/622912847b959736301bfb91/4:3/w_2560%2Cc_limit/GettyImages-1301412050.jpg' />
+    </div>
+
   </div>,
   document.getElementById("copyright")
 );
