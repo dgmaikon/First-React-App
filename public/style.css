@@ -1,24 +1,5 @@
 
-h2 {
-    color: red;
-}
-
-#root {
-    color: blue;
-}
-
-#name{
-    color: darkblue;
-}
-
-.firstLi {
-    color: red;
-}
-
-.secondLi {
-    color: blue;
-}
-
-.thirdLi {
-    color: green;
+.food-img {
+    width: 100px;
+    height: 100px;
 }
