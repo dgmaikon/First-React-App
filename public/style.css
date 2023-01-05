@@ -7,6 +7,18 @@ h2 {
     color: blue;
 }
 
-#name {
+#name{
+    color: darkblue;
+}
+
+.firstLi {
+    color: red;
+}
+
+.secondLi {
+    color: blue;
+}
+
+.thirdLi {
     color: green;
 }
