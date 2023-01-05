@@ -8,12 +8,16 @@ import pi, { triplePi, doublePi } from './math.js';
 
 //global import
 import * as calc from './calculator.js';
+import * as copy from './copyright.js';
+
+
 
 /* import {add, subtract, multiply, divide}; */ //import function by function
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const names = ReactDOM.createRoot(document.getElementById('names'));
 const math = ReactDOM.createRoot(document.getElementById('math'));
+const copyright = ReactDOM.createRoot(document.getElementById('copyright'));
 
 root.render(
   <ul>
@@ -42,3 +46,11 @@ math.render(
  </ul>,
  document.getElementById("math")
  );
+
+ copyright.render(
+  <div>
+    <h1>Created by { copy.yourname }</h1>
+    <p>Copyright { copy.year }</p>
+  </div>,
+  document.getElementById("copyright")
+);
