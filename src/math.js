@@ -1,13 +1,18 @@
 
 const pi = 3.1415962;
+const num = 3;
 
-function doublePi(){
+const doublePi = () => {
     return pi * 2;
 }
 
-function triplePi(){
+const triplePi = () => {
     return pi * 3;
 }
 
+const SumNum = () => {
+    return num + 2;
+}
+
 export default pi;
-export{ doublePi, triplePi };
+export{ doublePi, triplePi, SumNum};
