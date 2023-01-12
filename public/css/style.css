@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.title {
+    font-size: var(--font-size-large);
+    padding: var(--padding);
+}
+
+.list {
+    font-size: var(--font-size-small);
+    color: brown;
+    padding-bottom: 2%;
+}
+
+.calc {
+    padding-bottom: 2%;
+}
+
+.pi{
+    font-size: var(--font-size-medium);
+    padding: var(--padding);
+}
+
+.food-img {
+    width: 100px;
+    height: 100px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+}
