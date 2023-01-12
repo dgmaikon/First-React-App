@@ -3,8 +3,8 @@ const yourname = 'Maikon';
 const currentDate = new Date();
 const year = currentDate.getFullYear();
 
-const currentHour = new Date();
-const hour = currentHour.getHours();
+let currentHour = new Date();
+let hour = currentHour.getHours();
 
 const img = "https://picsum.photos/200";
 
