@@ -12,8 +12,8 @@ const Copyright = () => {
             </div>
 
             <p className='heading' style={customStyle}>{greeting} {yourname}</p>
-            <h1>Created by { yourname }</h1>
-            <p>Copyright { year }</p>
+            <h1>Created by { yourname } </h1>
+            <p>Copyright { year } </p>
         </div>
     );
 }
